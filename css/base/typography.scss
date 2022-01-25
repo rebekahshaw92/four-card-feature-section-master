@@ -1,0 +1,78 @@
+$font: 'Poppins', sans-serif;
+$veryLightGray: hsl(0, 0%, 98%);
+$grayishBlue: hsl(229, 6%, 66%);
+$veryDarkBlue: hsl(234, 12%, 34%);
+
+body {
+    font-family: $font;
+}
+
+.mainTitle {
+    color: $grayishBlue;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 150px;
+    @include media-breakpoint-up(xl) { 
+       font-size: 30px;
+      } 
+}
+
+.subtitle {
+    text-align: center;
+    color: $veryDarkBlue;
+    font-weight: 600;
+    padding-top: 5px;
+    @include media-breakpoint-up(xl) { 
+        font-size: 30px;
+        margin: 0 auto;
+       } 
+}
+
+.mainText {
+    color: $grayishBlue;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    @include media-breakpoint-up(xl) { 
+        text-align: center;
+        font-size: 15px;
+        max-width: 540px;
+        margin-left: 340px;
+      } 
+      @include media-breakpoint-up(xxl) { 
+        margin-left: 450px;
+      } 
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: $veryDarkBlue;
+    @include media-breakpoint-up(xl) { 
+        font-size: 20px;
+       } 
+}
+
+
+.card-text {
+    color: $grayishBlue;
+    //padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    @include media-breakpoint-up(md) { 
+       font-size: 22px;
+     }   
+     @include media-breakpoint-up(xl) { 
+        font-size: 15px;
+       } 
+} 
