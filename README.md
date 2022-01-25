@@ -27,11 +27,11 @@ Users should be able to:
 
 #### Desktop
 
-![Desktop(images/desktop.png)
+![Desktop](images/desktop.png)
 
 #### Mobile
 
-![mobile(images/mobile.png)
+![mobile](images/mobile.png)
 
 ### links
 
